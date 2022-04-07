@@ -1,0 +1,13 @@
+*.csv
+*.gz
+*.pkl
+*.pyc
+*.xml
+*.csv
+*.tar
+*.db
+*.pdf
+*.png
+.ipynb_checkpoints/*
+.idea/
+.DS_*
