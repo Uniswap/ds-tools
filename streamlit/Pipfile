@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 streamlit = "*"
+pandas-gbq = "*"
+pyqt5 = "*"
 
 [dev-packages]
 
