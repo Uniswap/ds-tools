@@ -1,0 +1,27 @@
+
+
+============================== 2022-05-31 01:04:24.363268 | 043f84d5-4ec1-454e-9744-a6ed4f8c3f4c ==============================
+01:04:24.363280 [info ] [MainThread]: Running with dbt=1.1.0
+01:04:24.363538 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/wanxin/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbt_test', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+01:04:24.363634 [debug] [MainThread]: Tracking: tracking
+01:04:24.388638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3a8a29a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3a899e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3a899e80>]}
+01:04:24.389586 [info ] [MainThread]: Creating dbt configuration folder at /Users/wanxin/.dbt
+01:04:24.394234 [debug] [MainThread]: Starter project path: /Users/wanxin/.local/share/virtualenvs/dbt-X6r9xoZD/lib/python3.9/site-packages/dbt/include/starter_project
+01:06:35.116336 [info ] [MainThread]: Profile dbt_test written to /Users/wanxin/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+01:06:35.117712 [info ] [MainThread]: 
+Your new dbt project "dbt_test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+01:06:35.118388 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3a84da30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b734460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3a899c10>]}
